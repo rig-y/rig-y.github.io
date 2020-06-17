@@ -1,3 +1,22 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://rig-y.github.io/"
+languageCode = "ja-JP"
+title = "rig-y 備忘録"
+googleAnalytics = "UA-169231463-1"
+theme = "mainroad"
+
+[Author]
+  name = "rigy"
+  bio = "関西でWebプログラマーをやってる新卒1年目"
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = true
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets.social]
+  twitter = "_rigy_"
+  github = "rig-y"
+  email = "rigy8ygir@gmail.com"
+
+
